@@ -9,7 +9,7 @@ In this section, we will discuss how webpack splits code using `require.ensure()
 
 ## `require.ensure()`
 
-webpack statically parses for `require.ensure()` in the code while building and adds the modules here into a separate chunk. This new chunk is loaded on demand by webpack through jsonp.
+Webpack statically parses for `require.ensure()` in the code while building and adds the modules here into a separate chunk. This new chunk is loaded on demand by webpack through jsonp.
 
 The syntax is as follows
 
